@@ -11,8 +11,9 @@ Date        : 18 September,2016
 #include<math.h>
 	void main()
 		{
-		clrscr();
+		
 		float  num,square_root;
+		clrscr();
 		printf("Enter a number \n");
 		scanf("%f",&num);
 		square_root= sqrt(num);
