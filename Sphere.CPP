@@ -10,8 +10,8 @@ Date		:18 September,2016
 #include<conio.h>
 	void main()
 		{
-		clrscr();
 		int radius, surface_area, volume;
+		clrscr();
 		printf("Enter the radius of sphere: \n");
 		scanf("%d",&radius);
 		surface_area=4*(22/7)*(radius^2);
