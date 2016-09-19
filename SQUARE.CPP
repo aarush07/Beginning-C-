@@ -10,8 +10,8 @@ Date        : 18 September,2016
 #include<conio.h>
 	void main()
 		{
-		clrscr();
 		int  num,square;
+		clrscr();
 		printf("Enter a number \n");
 		scanf("%d",&num);
 		square= num*num;
