@@ -11,8 +11,9 @@ Date        : 18 September,2016
 #include<math.h>
 	void main()
 		{
-		clrscr();
+		
 		int  num,square;
+		clrscr();
 		printf("Enter a number \n");
 		scanf("%d",&num);
 		square= pow(num,2);
