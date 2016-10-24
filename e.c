@@ -1,52 +1,14 @@
-#include <stdio.h>
- 
-int main () {
 
-   int a,b,c=0;
-   char operator;   
-		printf("Enter operation you want to perform: \n");
-		scanf("%c",&operator);   
+ 	#include<stdio.h>
 		
-		printf("Enter a number: \n");
-		scanf("%d",&a);
-		
-		printf("Enter a number: \n");
-		scanf("%d",&b);
-
+	int main()
+		{
+			int a;
+				printf("This program uses terniary operator to check odd and even:\n");
+				printf("Enter a number:\n");
+				scanf("%d",&a);
+				(a%2==0) ? printf("The number is even \n "):printf("The number is odd \n");
 		
 
-		
-   
-	switch(operator) {
-      
-		case '+' :
- 		        c=a+b;
-			printf("Your result  %d \n",c );
-        	break;
-         	
-		case '-' :
-         		c=a-b;
-			printf("Your result  %d \n",c );
-         	break;
-	
-		case '*' :
-		        c=a*b;
-			printf("Your result  %d \n",c );
-         	break;
-	
-		case '/' :
-         		c=a/b;
-			printf("Your result  %d \n",c );
-         	break;
-      
-      
-      
-	 	default :
-         		printf("Invalid input\n" );
-   			
-			}
-   
-   
- 
-   	return 0;
-}
+			return 0;	
+		}
