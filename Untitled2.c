@@ -12,12 +12,12 @@ program.    :
         void main ()
             {
              int a,b,c,root1=0,root2=0,dis=0;
-             printf("Enter coeffecient of x");
+             printf("Enter the  coeffecient of x");
 
              scanf("%d",&a);
              printf("Ehter the coeffecient of y");
              scanf("%d",&b);
-             printf("Enter the coeffecientof z");
+             printf("Enter the constant z");
              scanf("%d",&c);
 
                 root1= (-b + pow(b*b-4*a*c,(1/2)))/(2*a);
