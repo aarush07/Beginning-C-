@@ -1,7 +1,7 @@
 /*
 Student Name: Aarush Baba Rijal
 Subject     : Programming Fundamentals
-Roll        : 01
+Roll        : 
 Program     : Write a program to print the square of any two numbers
 Lab no.     : 01
 Date        : 18 September,2016
