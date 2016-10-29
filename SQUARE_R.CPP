@@ -3,7 +3,7 @@ Student Name: Aarush Baba Rijal
 Subject     : Programming Fundamentals
 Roll        : 01
 Program     : Write a program to print the square root of any two numbers
-Lab no.     : 01
+Lab no.     : 
 Date        : 18 September,2016
 */
 #include<stdio.h>
